@@ -33,6 +33,57 @@
 </Idea>
 
 
+<Idea Id="1" Name="Continuous Delivery">
+  <!-- Triage level can be: C=Critical, V=Value-adding, N=Nice-to-have -->
+  <TriageLevel>C</TriageLevel>
+  <!-- Order-level the idea should be listed in. -->
+  <SortOrder>1</SortOrder>
+  <!-- Idea status: Captured, Dropped, Chartered(an initial or full charter has been created.) Stewing(There is a better work for the breweing/cultivation of the idea)Nurture? -->
+  <IdeaStatus>Captured</IdeaStatus>
+  <Headline>Implement Continuous delivery.</Headline>
+  <Description></Description>
+  <Purpose>Fast feedback on failure.
+Automate all the way to delivery.</Purpose>
+  <ProblemThatIsSolved>Continuosly know whether or not the product is releasable.</ProblemThatIsSolved>
+  <ProblemThatIsSolved>Free up people for value adding task, instead of wasting time in installations, testing or troubleshooting.</ProblemThatIsSolved>
+  <WhosProblemIsIt>Development team and management.</WhosProblemIsIt>
+  <IsItImportantToThem>It keeps the dev team away from focusing on the value adding work. It keeps mgmt away from getting the optimal product at the right time.</IsItImportantToThem>
+  <WhatIndicatesTheyWillPayForTheSolution>It has to pay for itself at every iteration.</WhatIndicatesTheyWillPayForTheSolution>
+  <!-- There can be multiple technical challenges. -->
+  <ThoughChallenge Id="1" Challenge="Let devs start the CD run/process">
+    <!-- A challenge can have multiple solutions. -->
+    <Solution></Solution>
+  </ThoughChallenge>
+  <ThoughChallenge Id="2" Challenge="How to identify that commits are ready for processing.">
+    <!-- A challenge can have multiple solutions. -->
+    <Solution></Solution>
+  </ThoughChallenge>
+  <ThoughChallenge Id="3" Challenge="Automated running the tests.">
+    <!-- A challenge can have multiple solutions. -->
+    <Solution></Solution>
+  </ThoughChallenge>
+  <ThoughChallenge Id="4" Challenge="Identify app restarts.">
+    <!-- A challenge can have multiple solutions. -->
+    <Solution></Solution>
+  </ThoughChallenge>
+  <ThoughChallenge Id="5" Challenge="Analyze logs for failures.">
+    <!-- A challenge can have multiple solutions. -->
+    <Solution></Solution>
+  </ThoughChallenge>
+  <ThoughChallenge Id="6" Challenge="Provide automated system for app and test machine deployment.">
+    <!-- A challenge can have multiple solutions. -->
+    <Solution></Solution>
+  </ThoughChallenge>
+   <!-- Do you have a prototype, sample or demonstration aka. PoC. -->
+  <ProofOfConcept></ProofOfConcept>
+  <HardestRemainingWork>automated deployment of production hypervisor.</HardestRemainingWork>
+  <WhyHasNoOneDoneThisBefore>Lack of time.</WhyHasNoOneDoneThisBefore>
+  <WhyHasNoOneDoneThisBefore>Lack of inspiration(overview).</WhyHasNoOneDoneThisBefore>
+  <WhyAreYouTheRightPersonToSolveIt>Want it, have knowledge about most of the steps.</WhyAreYouTheRightPersonToSolveIt>
+  <WhyShouldOurOrgFundYourWork></WhyShouldOurOrgFundYourWork>
+</Idea>
+
+
 <!--
   <IdeaChallenge Id="" Description="">
   <IdeaChallengeSolution Id="" Description="">
