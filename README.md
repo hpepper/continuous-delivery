@@ -36,3 +36,13 @@ When getting a job:
 * Aminator - cloning? AMI's
   * https://www.youtube.com/watch?v=7oEvlcUMqpE&list=WL&index=3
 * Asgaard - 
+  *  24:20 spin up new ASG canary it, put a alitle traffic and then spin old ASG down.
+* glisten - workflow
+  * 28:12
+  * 
+  
+
+lxc-clone -o u_base -n u_tst
+   48  virsh -c lxc:// start u_tst
+   49  virsh -c lxc:// list
+
