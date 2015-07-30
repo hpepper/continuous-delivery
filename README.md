@@ -33,5 +33,6 @@ When getting a job:
 3. 
 
 
-* Aminator
+* Aminator - cloning? AMI's
   * https://www.youtube.com/watch?v=7oEvlcUMqpE&list=WL&index=3
+* Asgaard - 
