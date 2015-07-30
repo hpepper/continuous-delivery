@@ -31,3 +31,7 @@ When getting a job:
 1. Start it
 2. Get the IP address
 3. 
+
+
+* Aminator
+  * https://www.youtube.com/watch?v=7oEvlcUMqpE&list=WL&index=3
