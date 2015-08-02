@@ -64,7 +64,8 @@ Loc617
 * Automated capacity testing
 * Manual testing
 * Release
-* 
+
+
 ## Commit stage
 
 ### Compile
@@ -146,7 +147,7 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
     * Sonar
 * Functional test
     * Enviject
-    * Windmill
+    * Windmill - http://www.getwindmill.com/
     * Selinium
 * Continuous deployment/delivery
     * SAAS
@@ -161,5 +162,9 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
 * How to split out in multi-threaded paths
   * Do deliver build and UT build at the same time/in parallel.
 * Lint ?
+* Build for multiple platforms: Ubuntu, Fedora 20, RedHat 6.6
 
 ## XORP installation package with configuration files.
+
+* test ping
+* Test multicast
