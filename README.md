@@ -2,6 +2,11 @@
 Documentation (and tools?) for continuous delivery.
 
 * Cycle time: from change to delivery to the customer.
+* 
+References:
+* http://ant.apache.org/ivy/ - The agile dependency manager
+* http://fitnesse.org/ - The fully integrated standalone wiki and acceptance testing framework
+* http://www.youtube.com/watch?v=KH2_sB1A6lA - Tools for Continuous Integration at Google Scale
 
 ### Providing A build machine
 
@@ -47,15 +52,101 @@ lxc-clone -o u_base -n u_tst
    49  virsh -c lxc:// list
 
 # Deploymnet pipeline
+Loc617
 
 * Commit stage
   * Compile
   * Unit test
   * Analysis
   * Build installers
+  * Put binaries in repo
 * Automated acceptance testing
 * Automated capacity testing
 * Manual testing
 * Release
+* 
+## Commit stage
+
+### Compile
+
+* C:
+  * gcc
+  * clang?
+* Unit test
+  * C/C++
+    * CxxUnit
+    * check
+* Analysis
+  * Security
+  * McCabe
+    * Sonar module: 
+  * Code Coverage
+    * Sonar module: 
+  * Code Copy
+    * Sonar module: 
+  * Lint
+  
+## CI Roll-out
+
+See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jenkins CI (Ladder)]
+
+* Install and configure Jenkins
+  * One time setup of master server.
+  * Flexibility for your development/operations environment.
+* Automated build
+  * Build your source on every commit.
+  * Early and often integration of source code.
+  * Scheduble for appropriate timing
+* Unit and integration test
+  * Testing accross multiple code modifications
+  * Early test failure information
+  * Reporting: Pass/Fail and Trends
+  * Tests are repeatable
+  * Early detection of bugs is worth a lot in the end.
+* Reporting and metrics
+  * Clearly indicates progress
+  * Product quality and Non Functional requirements
+  * Improve visibility and decision making
+  * Help understand maintainability of code base
+  * Trends can indicate systemic issues in governance/process
+* Distributed builds
+  * Fast, fast, Fast
+  * Robust, no single point of failure
+  * Multiple platforms and versions
+* Functional testing
+  * Reporting: Consistent and timely PasS/Fail and Trends
+  * Test are repeatable
+  * Detect bugs and help to prevent their reintroduction
+  * regression testing
+  * Reduce risk in a way business users understand
+* Continuous deployment/delivery
+  * Reduce risk of releasing software
+  * Validate how good your business plan is, much more quickly.
+  * Get real feedback  on the progress of their projects.
 
 
+* Plugins
+    * Green Balls
+* Testing plugins
+    * TestNG
+    * Mozmill
+    * Gallio
+    * Japex
+    * Nunit
+    * xUnit
+* Report and metric plugins
+    * Code analysis
+    * Console sections
+    * Log parser
+    * Performance
+    * Statistics
+    * Section view
+    * Timestamper
+    * warnings
+    * Sonar
+* Functional test
+    * Enviject
+    * Windmill
+    * Selinium
+* Continuous deployment/delivery
+    * SAAS
