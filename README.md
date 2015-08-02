@@ -1,7 +1,7 @@
 # continuous-delivery
 Documentation (and tools?) for continuous delivery.
 
-
+* Cycle time: from change to delivery to the customer.
 
 ### Providing A build machine
 
@@ -45,4 +45,17 @@ When getting a job:
 lxc-clone -o u_base -n u_tst
    48  virsh -c lxc:// start u_tst
    49  virsh -c lxc:// list
+
+# Deploymnet pipeline
+
+* Commit stage
+  * Compile
+  * Unit test
+  * Analysis
+  * Build installers
+* Automated acceptance testing
+* Automated capacity testing
+* Manual testing
+* Release
+
 
