@@ -150,3 +150,16 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
     * Selinium
 * Continuous deployment/delivery
     * SAAS
+
+
+# XORP as an example
+
+## Core XORP
+
+* Automated build
+* Developer started build.
+* How to split out in multi-threaded paths
+  * Do deliver build and UT build at the same time/in parallel.
+* Lint ?
+
+## XORP installation package with configuration files.
