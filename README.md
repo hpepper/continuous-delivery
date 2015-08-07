@@ -134,6 +134,7 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
 
 * Plugins
     * Green Balls
+      * http://updates.jenkins-ci.org/latest/greenballs.hpi
 * Testing plugins
     * TestNG
     * Mozmill
