@@ -169,10 +169,14 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
   * https://wiki.jenkins-ci.org/display/JENKINS/Build+Flow+Plugin
   * https://wiki.jenkins-ci.org/display/JENKINS/FLOW+Plugin
     * http://startflowing.net/
+  * https://wiki.jenkins-ci.org/display/JENKINS/Join+Plugin
+  * http://rundeck.org/
 * Artifact db
   * http://hackers.lookout.com/deploydb/
 * Triggers
-  * 
+  * https://wiki.jenkins-ci.org/display/JENKINS/Gerrit+Trigger
+  * https://wiki.jenkins-ci.org/display/JENKINS/ScriptTrigger+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/XTrigger+Plugin
 * Slave control
   * https://wiki.jenkins-ci.org/display/JENKINS/Libvirt+Slaves+Plugin
   * https://wiki.jenkins-ci.org/display/JENKINS/Swarm+Plugin
