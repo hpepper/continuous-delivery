@@ -126,6 +126,12 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
   * Get real feedback  on the progress of their projects.
 
 
+### Install and configure Jenkins
+
+#### Jenkins master
+
+* https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds
+
 * Plugins
     * Green Balls
 * Testing plugins
@@ -151,6 +157,25 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
     * Selinium
 * Continuous deployment/delivery
     * SAAS
+* Version control
+  * https://wiki.jenkins-ci.org/display/JENKINS/archive-files-scm-plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/ClearCase+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/Config+Rotator+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/Tracking+Git+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin
+* Jenkins control
+  * https://wiki.jenkins-ci.org/display/JENKINS/Accelerated+Build+Now+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/Build+Flow+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/FLOW+Plugin
+    * http://startflowing.net/
+* Artifact db
+  * http://hackers.lookout.com/deploydb/
+* Triggers
+  * 
+* Slave control
+  * https://wiki.jenkins-ci.org/display/JENKINS/Libvirt+Slaves+Plugin
+  * https://wiki.jenkins-ci.org/display/JENKINS/Swarm+Plugin
 
 
 # XORP as an example
