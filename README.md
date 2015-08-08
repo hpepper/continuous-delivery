@@ -191,6 +191,23 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
   * https://wiki.jenkins-ci.org/display/JENKINS/thinBackup
   * https://wiki.jenkins-ci.org/display/JENKINS/DiskCheck+Plugin
 
+### Installing a artifact repository
+Deploy seems to be the name for uploading artifacts to the repo.
+
+Build Artifact Repository 
+* https://en.wikipedia.org/wiki/Binary_repository_manager
+* https://github.com/teamfruit/defend_against_fruit/wiki/When-To-Use-A-Build-Artifact-Repository
+ 
+
+Candidates:
+* https://archiva.apache.org/index.cgi
+  * http://stackoverflow.com/questions/22479847/deploy-from-jenkins-to-archiva-steps
+  * http://stackoverflow.com/questions/15010016/deploy-artifact-from-jenkins-to-archiva-with-nant
+  * http://evertrue.github.io/blog/2014/07/21/setting-up-an-archiva-repository/
+  * https://archiva.apache.org/docs/2.2.0/userguide/deploy.html
+* http://www.sonatype.org/nexus/
+* https://wiki.jenkins-ci.org/display/JENKINS/ArtifactDeployer+Plugin
+* http://www.avajava.com/tutorials/lessons/how-do-i-deploy-an-artifact-to-an-archiva-repository.html
 
 # XORP as an example
 
