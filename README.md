@@ -195,6 +195,7 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
 Deploy seems to be the name for uploading artifacts to the repo.
 
 Build Artifact Repository 
+* https://dzone.com/refcardz/binary-repository-management
 * https://en.wikipedia.org/wiki/Binary_repository_manager
 * https://github.com/teamfruit/defend_against_fruit/wiki/When-To-Use-A-Build-Artifact-Repository
  
@@ -208,6 +209,14 @@ Candidates:
 * http://www.sonatype.org/nexus/
 * https://wiki.jenkins-ci.org/display/JENKINS/ArtifactDeployer+Plugin
 * http://www.avajava.com/tutorials/lessons/how-do-i-deploy-an-artifact-to-an-archiva-repository.html
+* Initial version
+  * scp with keys/host thing, so there is a jenkins account on the artifact machine and use the homedir for the storage
+    * no metadata; deps etc.
+    * can be overwritten.
+  * Use an http server to get the bins on a build machine
+    * No login so everyone can read the data :-(
+
+*
 
 # XORP as an example
 
