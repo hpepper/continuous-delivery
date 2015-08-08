@@ -163,7 +163,9 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
   * https://wiki.jenkins-ci.org/display/JENKINS/ClearCase+Plugin
   * https://wiki.jenkins-ci.org/display/JENKINS/Config+Rotator+Plugin
   * https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin
-    * Requires scm-ap and git-client
+    * Requires 
+      * scm-ap
+      * git-client - https://wiki.jenkins-ci.org/display/JENKINS/Git+Client+Plugin
     * http://code.hootsuite.com/how-to-make-jenkins-play-nicely-with-git/
   * https://wiki.jenkins-ci.org/display/JENKINS/Tracking+Git+Plugin
   * https://wiki.jenkins-ci.org/display/JENKINS/Pretested+Integration+Plugin
