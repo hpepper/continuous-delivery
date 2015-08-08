@@ -181,6 +181,11 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
 * Slave control
   * https://wiki.jenkins-ci.org/display/JENKINS/Libvirt+Slaves+Plugin
   * https://wiki.jenkins-ci.org/display/JENKINS/Swarm+Plugin
+* Jenkins CI
+  * https://wiki.jenkins-ci.org/display/JENKINS/The+Continuous+Integration+Game+plugin
+* Jenkins administration
+  * https://wiki.jenkins-ci.org/display/JENKINS/thinBackup
+  * https://wiki.jenkins-ci.org/display/JENKINS/DiskCheck+Plugin
 
 
 # XORP as an example
