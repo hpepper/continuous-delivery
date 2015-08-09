@@ -176,6 +176,7 @@ See: [http://www.youtube.com/watch?v=q5_VzA9k29E|Continuous Integration with Jen
     * http://startflowing.net/
   * https://wiki.jenkins-ci.org/display/JENKINS/Join+Plugin
   * http://rundeck.org/
+  * https://wiki.jenkins-ci.org/display/JENKINS/Disk+Usage+Plugin
 * Artifact db
   * http://hackers.lookout.com/deploydb/
 * Triggers
