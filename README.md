@@ -243,6 +243,18 @@ Candidates:
 
 *
 
+## Be able to create and destroy containers
+
+* Set-up a jenkins slave on the host.
+* allow jenkins to sudo
+  * ```jenkins ALL=NOPASSWD: ALL```
+  * Though it should be reduced in scope, so that only the lxc- commands can be executed.
+    * See: https://help.ubuntu.com/community/Sudoers
+* on the jenkins master 
+  * add the host machine as node
+  * label limit it with 'container_admin'
+  * create a test job: 'sudo lxc-ls --fancy' limit it to 'container_admin'
+
 # XORP as an example
 
 ## Core XORP
