@@ -45,7 +45,23 @@ When getting a job:
 * glisten - workflow
   * 28:12
   * 
-  
+#### Allow jenkins to administrate LXC instance through a deamon running as root
+
+In order to allow Jenkins to start instance for e.g. 
+
+* Make sure that it is the 'right' originator(jenkins) of the request.
+  * Perhaps using a key.
+* Possibly using wt?
+* Operations needed:
+  * Create
+  * Start
+  * Stop
+  * Destroy
+  * Status
+    * Running/stopped
+    * IP address(s)
+    * 
+  * What kind of Web interface is Amazon providing? Possibly use the same kind of methods?
 
 lxc-clone -o u_base -n u_tst
    48  virsh -c lxc:// start u_tst
