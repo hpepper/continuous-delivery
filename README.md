@@ -63,6 +63,13 @@ In order to allow Jenkins to start instance for e.g.
     * IP address(s)
     * 
   * What kind of Web interface is Amazon providing? Possibly use the same kind of methods?
+  * Web API
+    * rest
+      * http://stackoverflow.com/questions/25860068/how-to-get-restful-api-up-and-running-using-wt
+      * http://www.webtoolkit.eu/wt/blog/2011/02/15/urls__pretty_is_good__restful_is_a_liability
+      * http://redmine.webtoolkit.eu/boards/1/topics/2189
+      * http://redmine.webtoolkit.eu/boards/1/topics/2156
+    * SOA
 
 lxc-clone -o u_base -n u_tst
    48  virsh -c lxc:// start u_tst
