@@ -51,6 +51,7 @@ In order to allow Jenkins to start instance for e.g.
 
 * Make sure that it is the 'right' originator(jenkins) of the request.
   * Perhaps using a key.
+  * Possibly only listen on the localhost network.
 * Possibly using wt?
 * Operations needed:
   * Create
